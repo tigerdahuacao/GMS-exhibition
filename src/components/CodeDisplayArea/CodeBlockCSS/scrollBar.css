@@ -1,0 +1,8 @@
+.scroll-bar {
+    overflow: scroll;
+    scrollbar-color: red rgb(209 213 219 0.5);
+    scrollbar-width: thin;
+}
+.code-block-height {
+    max-height: 45vh;
+}

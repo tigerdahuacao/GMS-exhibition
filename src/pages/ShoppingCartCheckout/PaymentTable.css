@@ -1,0 +1,12 @@
+.style_div {
+    width: "100%";
+    border-radius: "10px";
+    overflow: "hidden";
+}
+
+.style_table {
+    border-collapse: "separate";
+    border-spacing: 0;
+    border-radius: "10px";
+    border: "solid 2px #dfdfdf";
+}

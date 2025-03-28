@@ -1,0 +1,50 @@
+.apple-pay-button-with-text {
+    --apple-pay-scale: 1; /* (height / 32) */
+    display: inline-flex;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-width: 150px;
+    min-height: 32px;
+    max-height: 64px;
+    width: 90%;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+.apple-pay-button-black-with-text {
+    background-color: black;
+    color: white;
+}
+
+.apple-pay-button-with-text.apple-pay-button-black-with-text > .logo {
+    background-image: url("/image/apple-pay-in-btn.svg");
+    background-color: black;
+}
+
+.apple-pay-button-with-text > .text {
+    font-weight: 600;
+    font-size: calc(1em * var(--apple-pay-scale));
+    align-self: center;
+    margin-top: 0.25rem;
+}
+
+.apple-pay-button-with-text > .text-right {
+    font-weight: 600;
+    font-size: calc(1em * var(--apple-pay-scale));
+    align-self: center;
+    margin-right: calc(2px * var(--apple-pay-scale));
+    margin-top: 0.25rem;
+}
+
+.apple-pay-button-with-text > .logo {
+    width: calc(35px * var(--scale));
+    height: 100%;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    margin-left: calc(2px * var(--apple-pay-scale));
+    border: none;
+}

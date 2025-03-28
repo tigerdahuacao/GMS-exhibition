@@ -1,0 +1,23 @@
+[
+    {
+        "Id": "SHIP_123",
+        "Label": "Free Shipping",
+        "Type": "SHIPPING",
+        "Value": "3.00",
+        "CurrencyCode": "USD"
+    },
+    {
+        "Id": "SF",
+        "Label": "sf-express",
+        "Type": "SHIPPING",
+        "Value": "15.00",
+        "CurrencyCode": "USD"
+    },
+    {
+        "Id": "USPS",
+        "Label": "USPS",
+        "Type": "SHIPPING",
+        "Value": "20.00",
+        "CurrencyCode": "USD"
+    }
+]

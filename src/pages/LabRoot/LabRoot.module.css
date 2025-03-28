@@ -1,0 +1,20 @@
+.sidebar {
+    width: 200px; /* Adjust as needed */
+    /* Other styles for the sidebar */
+}
+
+.detail {
+    margin-left: 200px; /* Adjust as needed */
+    /* Other styles for the detail section */
+}
+
+/* Media query for mobile devices (adjust breakpoint as needed) */
+@media (max-width: 768px) {
+    /* Example breakpoint - adjust to your needs */
+    .sidebar {
+        display: none; /* Hide sidebar on mobile */
+    }
+    .detail {
+        margin-left: 0; /* Remove margin when sidebar is hidden */
+    }
+}
