@@ -1,9 +1,14 @@
+访问地址:
+https://ppgms-test.github.io/
+
 
 
 # 2025-03-27 First Init
 
 - 从之前的项目迁移而来, 放弃使用`craco`(`webpack`的一个变体)而使用`vite`来构建项目.  
-  - 之前的项目地址为: `https://github.com/PPGMS-Test/display-site-1.git` 现在已经`Archive`
+  - 之前的项目地址为: > https://github.com/PPGMS-Test/display-site-1.git  
+    现在已经`Archive`
+    ![alt text](./readme-pic/20250328-00.png)
   - 现在在`vite.config.js`中, 修改启动host为`127.0.0.1`而不是在`.env`文件中`HOST=127.0.0.1`
   - 所有的`.env`文件中的环境变量都需要加上`VITE_xxx`前缀
   - 静态资源的路径改了, 现在不需要添加`process.env.PUBLIC_URL`前缀了
